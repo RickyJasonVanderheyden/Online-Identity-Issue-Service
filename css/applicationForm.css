@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+.applicationFormContainer
+{
+    background-color: #dcebff;
+    margin-bottom: auto;
+    width: 100%;
+    min-height: 100vh;
+}
+
 .application {
     margin-left:4%;
     font-size: 17px;
@@ -44,6 +52,7 @@
     text-align: center;
     margin: 1%;
     margin-bottom: 2%;
+    text-decoration: underline;
 }
 
 .appInfo {

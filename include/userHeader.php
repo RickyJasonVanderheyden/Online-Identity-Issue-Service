@@ -23,7 +23,8 @@
                 <li><a href="details.php">Details</a></li>
                 <li><a href="contactUs.php">Contact Us</a></li>
                 <li><a href="aboutUs.php">About us</a></li>
-                <li style="float:right;"><i class="fas fa-sign-in-alt"></i> <a href="signup.php">Sign Up</a>/<a href="login.php">Log In</a></li>
+                <li style="float:right;"><a href="logout.php"><i class="fas fa-sign-in-alt"></i> Logout</a></li>
+                <!-- <li style="float:right;"><a href="profile.php"><i class="fas fa-user-alt"></i> My Account</a></li> -->
             </ul>
 
         </div>

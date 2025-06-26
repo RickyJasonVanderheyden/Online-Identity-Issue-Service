@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 require_once 'connectDB.php';
 
 $name = $_POST['name'];
@@ -10,9 +10,11 @@ $bcnum = $_POST['bcnum'];
 $cvstatus = $_POST['cvstatus'];
 $email = $_POST['email'];
 $contact = $_POST['contact'];
+$userid = $_SESSION['userID'];
+$status = "Pending";
 
-$sql = "INSERT INTO applications (name, address, gender, dob, bcnum, cvstatus, email, contact) 
-VALUES ('$name', '$address', '$gender', '$dob', '$bcnum', '$cvstatus', '$email', '$contact')";
+$sql = "INSERT INTO applications (name, address, gender, dob, bcnum, cvstatus, email, contact, user_id, status) 
+VALUES ('$name', '$address', '$gender', '$dob', '$bcnum', '$cvstatus', '$email', '$contact', '$userid', '$status)";
 
 if ($connect->query($sql) === TRUE) {
     echo '<script>alert("Application was added to database."); 
@@ -22,3 +24,5 @@ else {
     echo '<script>alert("There was an unexpected error."); 
     window.location.href = "index.php";</script>';
 }
+
+?>

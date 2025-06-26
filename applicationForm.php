@@ -1,5 +1,7 @@
-<?php require_once "include/header.php"; ?>
+<?php 
+require_once "include/requireLogin.php"; ?>
 
+<div class="applicationFormContainer">
 <h1 class="heading">Online NIC Application</h1>
 <form class = "application" action="include/addApplication.php" method="POST">
     <label>Full Name</label><br>
@@ -31,5 +33,5 @@
 </form>
 
 <p class="appInfo">Need more information regarding application; <a href="details.php">click here.</a></p>
-
+</div>
 <?php require_once "include/footer.php"; ?>

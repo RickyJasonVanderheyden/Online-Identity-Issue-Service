@@ -1,4 +1,4 @@
-<?php require 'include/header.php'; ?>
+<?php require 'include/chooseHeader.php'; ?>
 
 <div class="infograph">
 <img src="images/OIG4.jpg" width="100%">
@@ -13,7 +13,7 @@
     <div class="resBox">
         <p><u>Reserve An Appointment</u></p>
         <img src="images/res_app.png"><br>
-        <a href="reservationForm.php"><button type="button">Apply Now</button></a><br><br>
+        <a href="reservationForm.php"><button type="button">Reserve Now</button></a><br><br>
         <a href="details.php">More Info</a>
     </div>
 </div>

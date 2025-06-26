@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.aboutUsContainer h3{
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 30px;
+  font-family:sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(180, 54, 54);
+}
+.aboutUsContainer p{
+  margin-top: 5px;
+  margin-left: 30px;
+  margin-bottom:40px;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
